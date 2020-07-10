@@ -7,6 +7,7 @@ You can find the xpt (SAS) data file and documentation for the data set [here](h
 
 ## Part II - Descriptive Analysis
 
+#### Frequency Summary Table:
 
 #### Bivariate Analysis:
 
@@ -16,6 +17,12 @@ You can find the xpt (SAS) data file and documentation for the data set [here](h
 |  Categorical (ALCGRP)  |  Continuous (SLEPTIM2)  |  Analysis of Variance (ANOVA)  |
 |  Categorical with only 2 categories (SEX)  |  Continuous (SLEPTIM2)  |  Independent Group t-test  |
 |  Continuous (Weight in pounds)  |  Continuous (SLEPTIM2)  |  Correlation  |
+
+#### Chi-Square Test:
+
+#### ANOVA Test:
+
+#### Independent T test:
 
 
 ## Part III - Regression Analysis
