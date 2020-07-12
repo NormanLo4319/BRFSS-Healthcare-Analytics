@@ -57,3 +57,10 @@ There are three main approaches to figure out the functional form of a regressio
 |  Model 1: Base Model  |  Model 2: Adjusted for Age and Sex  |  Model 3: Fully Adjusted  |
 |  :---:  |  :---:  |  :---:  |
 |  Only includes exposure indicator variables. May be more than one with multilevel exposure.  |  Includes all covariates in Model 1, plus age and sex covariates.  |  Includes all covariates that survive the forward stepwise modeling process.  |
+
+
+![linear](image/LinearReg.png)
+
+#### Logistic Regression Report:
+
+![logit](image/LogisticReg.png)
