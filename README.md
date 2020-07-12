@@ -39,9 +39,18 @@ Sometime,the data we have may not be sufficient to fit the model for various rea
 - Quartiles Transformation
 - Ranking the Continuous Variable
 
-#### Choices of Modeling Approaches
+#### Choices of Modeling Approaches:
 - Linear Regression: When dependent variable (outcome variable) is continuous
 - Logistic Regression When dependent variable (outcome variable) is a binary choice.
+
+#### Choosing the Correct Functional Form:
+There are three main approaches to figure out the functional form of a regression model. We demonstrate the **forward stepwise regression** (or **forward selection**) in this example.
+
+|  Atttribute  |  Forward Stepwise  |  Backward Stepwise |  Ambidirectional  |
+|  :---:  |  :---:  |  :---:  |  :---:  |
+|  Process  |  Run iterative models introducing a new variable each round  |  Start with all the variables in a model, an then run iterative models and remove variables each round  |  A custom combination of the two  |
+|  Popularity  |  Not Popular  |  Extrememly Popular  |  A dirty Secret  |
+|  Issues  |  At the end, try to put variable back inthat got kicked out  |  Start with all the variable all and the software can break due to small sells; also, no feel for data  |  Hard to explain in the methods section  |
 
 #### Linear Regression Report:
 
