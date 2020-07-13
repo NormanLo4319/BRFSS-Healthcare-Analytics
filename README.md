@@ -5,12 +5,12 @@ In this repository, we explore the use of BRFSS dataset for descriptive and regr
 The data set we are going to use for demonstration can be downloaded from the CDC BRFSS website. We focus our analysis on 2014 data set, but you can easily find the data set from different time period or combind them in your analysis.  The xpt (SAS) data file and documentation for the data set can be found [here](https://www.cdc.gov/brfss/smart/smart_2014.html).  Note that we do not upload the original xpt data file in this repository because the file size is over the repository limit. We only include the cleaned data set in CSV format for the analysis.
 
 #### Cleaning Process
-Step 1: Remove columns (variables) that is not relevant to the study.
-Step 2: Remove rows we don't need. Since our focus in this anaysis is mainly focus on sleeping problem for veterans, so we are going to remove observation that is not veteran.
-Step 3: Remove rows with invalid values based on documentation (e.g. ALCDAY5=999 or NA)
-Step 4: Create new columns based on the orginal variable values (e.g. (ALCDAYS<200) => 3)
-Step 5: Create dummy variables for categorical variable in the data set (for regression analysis)
-Step 6: Remove rows with missing value
+Step 1: Remove columns (variables) that is not relevant to the study.  
+Step 2: Remove rows we don't need. Since our focus in this anaysis is mainly focus on sleeping problem for veterans, so we are going to remove observation that is not veteran.  
+Step 3: Remove rows with invalid values based on documentation (e.g. ALCDAY5=999 or NA)  
+Step 4: Create new columns based on the orginal variable values (e.g. (ALCDAYS<200) => 3)  
+Step 5: Create dummy variables for categorical variable in the data set (for regression analysis)  
+Step 6: Remove rows with missing value  
 
 After cleaning the data set, we exported the cleaned data set and saved it as CSV file.
 
