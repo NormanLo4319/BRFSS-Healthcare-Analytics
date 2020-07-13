@@ -4,7 +4,7 @@ In this repository, we explore the use of BRFSS dataset for descriptive and regr
 ## Part I - Data Cleaning
 The data set we are going to use for demonstration can be downloaded from the CDC BRFSS website. We focus our analysis on 2014 data set, but you can easily find the data set from different time period or combind them in your analysis.  The xpt (SAS) data file and documentation for the data set can be found [here](https://www.cdc.gov/brfss/smart/smart_2014.html).  Note that we do not upload the original xpt data file in this repository because the file size is over the repository limit. We only include the cleaned data set in CSV format for the analysis.
 
-#### Cleaning Process
+#### Cleaning Process:
 Step 1: Remove columns (variables) that is not relevant to the study.  
 Step 2: Remove rows we don't need. Since our focus in this anaysis is mainly focus on sleeping problem for veterans, so we are going to remove observation that is not veteran.  
 Step 3: Remove rows with invalid values based on documentation (e.g. ALCDAY5=999 or NA)  
@@ -16,10 +16,11 @@ After cleaning the data set, we exported the cleaned data set and saved it as CS
 
 ## Part II - Descriptive Analysis
 
-#### Frequency Summary Table:
-
+#### Statistical Summary Table:
+Three main type of descriptive statistics are frequencies, measures of central tendency, and measures of variability. We use R calculate the frequency distribution for the categorical outcome variable (ASTHMA4) and mean and variance for the continuous outcome variable (SLEPTIM2). The summary tables is helpful in understanding the overall structure of the outcome variables. The summary tables are recorded in two separated excel files and can be found in the data folder.
 
 #### Bivariate Analysis:
+Bivariate analysis is one of the simplest forms of quantitative analysis, which is designed to test for the empirical relationship between two variables. Below is a list of bivariate tests for different type of data combination.
 
 |  Independent Variable  |  Dependent Variable  |  Test  |
 |  :---:  |  :---:  |  :---:  |
@@ -27,13 +28,6 @@ After cleaning the data set, we exported the cleaned data set and saved it as CS
 |  Categorical (ALCGRP)  |  Continuous (SLEPTIM2)  |  Analysis of Variance (ANOVA)  |
 |  Categorical with only 2 categories (SEX)  |  Continuous (SLEPTIM2)  |  Independent Group t-test  |
 |  Continuous (Weight in pounds)  |  Continuous (SLEPTIM2)  |  Correlation  |
-
-#### Chi-Square Test:
-
-#### ANOVA Test:
-
-#### Independent T test:
-
 
 ## Part III - Regression Analysis
 The main object for performing a regression analysis on the data set is to explore the relationship between outcome variable and the explanatory variables in the study. In this repository, we demonstrate the use of **Linear Regression Model** and **Logistic Regression Model**. Generally speaking, linear regression is applied when the outcome variable is continuous and logistic regression is used when the outcome variable is a binary choice, such as Yes/No, Up/Down, True/False, etc.
