@@ -35,7 +35,7 @@ The main object for performing a regression analysis on the data set is to explo
 #### Prepare for Linear Regression Analysis:
 Before jumping into the regression model, we should examine the assumptions in linear regression model.  One common way to do it is use the visualize tools in the statistical package.  We can check the linear relationship between outcome variable and key variable of interest by plotting the **normal probability plot** and **residuals vs. predicted values**.
 
-![norm_prob](image/norm_prob.png)
+![norm_prob](image/normal_prob.png)
 
 #### Feature Engineering:
 Sometime,the data we have may not be sufficient to fit the model for various reasons. It's important to check and see if any modification or transformation is needed before fitting the data to the model. We deomonstrate the use of a few common transformation techniques in the example.
