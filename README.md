@@ -61,7 +61,6 @@ There are three main approaches to figure out the functional form of a regressio
 |  :---:  |  :---:  |  :---:  |
 |  Only includes exposure indicator variables. May be more than one with multilevel exposure.  |  Includes all covariates in Model 1, plus age and sex covariates.  |  Includes all covariates that survive the forward stepwise modeling process.  |
 
-
 ![linear](image/LinearReg.png)
 
 #### Logistic Regression Report:
