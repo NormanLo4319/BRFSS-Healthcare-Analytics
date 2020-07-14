@@ -315,6 +315,7 @@ table(brfss$INC5, brfss$INCOME3)
 # <$50
 brfss$INC6[brfss$INCOME3 == 6] <- 1
 table(brfss$INC6, brfss$INCOME3)
+
 # <$75
 brfss$INC7[brfss$INCOME3 == 7] <- 1
 table(brfss$INC7, brfss$INCOME3)
