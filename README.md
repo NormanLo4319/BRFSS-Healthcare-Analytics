@@ -57,14 +57,16 @@ There are three main approaches to figure out the functional form of a regressio
 |  Popularity  |  Not Popular  |  Extrememly Popular  |  A dirty Secret  |
 |  Issues  |  At the end, try to put variable back inthat got kicked out  |  Start with all the variable all and the software can break due to small sells; also, no feel for data  |  Hard to explain in the methods section  |
 
-#### Linear Regression Report:
+For both the linear regression and logistic regression model, we apply the same model selection process. 
 
 |  Model 1: Base Model  |  Model 2: Adjusted for Age and Sex  |  Model 3: Fully Adjusted  |
 |  :---:  |  :---:  |  :---:  |
 |  Only includes exposure indicator variables. May be more than one with multilevel exposure.  |  Includes all covariates in Model 1, plus age and sex covariates.  |  Includes all covariates that survive the forward stepwise modeling process.  |
 
+#### Linear Regression:
+
 ![linear](image/LinearReg.png)
 
-#### Logistic Regression Report:
+#### Logistic Regression:
 
 ![logit](image/LogisticReg.png)
