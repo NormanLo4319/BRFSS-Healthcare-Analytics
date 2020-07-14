@@ -69,4 +69,4 @@ For both the linear regression and logistic regression model, we apply the same 
 
 #### Logistic Regression:
 
-![logit](image/LogisticReg.png)
+![logit](image/LogReg.png)
