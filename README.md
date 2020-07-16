@@ -1,5 +1,8 @@
 # BRFSS-Health-Descriptive-Analysis
-In this repository, we explore the use of BRFSS dataset for descriptive and regression analysis.
+In this repository, we explore the use of BRFSS dataset for descriptive and regression analysis. The study demonstrated in this repository mainly focuses on the effect of different risk factors to veterans sleep quality. There are three parts of this project,  
+1) demonstrate data collection and cleaning process  
+2) create a summary table for descriptive analysis  
+3) applies forward selection process for linear regression and logistic regression models  
 
 ## Part I - Data Cleaning
 The data set we are going to use for demonstration can be downloaded from the CDC BRFSS website. We focus our analysis on 2014 data set, but you can easily find the data set from different time period or combind them in your analysis.  The xpt (SAS) data file and documentation for the data set can be found [here](https://www.cdc.gov/brfss/smart/smart_2014.html).  Note that we do not upload the original xpt data file in this repository because the file size is over the repository limit. We only include the cleaned data set in CSV format for the analysis.
