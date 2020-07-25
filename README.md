@@ -73,3 +73,5 @@ For both the linear regression and logistic regression model, we apply the same 
 #### Logistic Regression:
 
 ![logit](image/LogReg.png)
+
+Copyright © 2020 Norman Lo
