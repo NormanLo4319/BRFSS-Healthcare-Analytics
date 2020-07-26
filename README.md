@@ -1,4 +1,4 @@
-# BRFSS-Health-Descriptive-Analysis
+# BRFSS Health Descriptive Analysis
 In this repository, we explore the use of BRFSS dataset for descriptive and regression analysis. The study demonstrated in this repository mainly focuses on the effect of different risk factors to veterans sleep quality. There are three parts of this project,  
 1) demonstrate data collection and cleaning process  
 2) create a summary table for descriptive analysis  
